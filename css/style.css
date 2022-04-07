@@ -1,0 +1,79 @@
+*, html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-screen {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2e2e2e;
+}
+
+.login-window {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #212121;
+  padding: 40px 50px;
+  border-radius: 10px;
+  border: 1px solid #00819e;
+  -webkit-box-shadow: 1px 3px 3px #00819e;
+          box-shadow: 1px 3px 3px #00819e;
+  margin-bottom: 20px;
+}
+
+.enter {
+  height: 50px;
+  width: 300px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #545454;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  border: 3px solid #00819e;
+  font-size: 20px;
+  color: #00819e;
+}
+
+.submit-btn {
+  height: 50px;
+  padding: 10px 0;
+  font-size: 20px;
+  background-color: #00819e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.log-and-pass {
+  color: #00819e;
+  font-size: 20px;
+}
